@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Chat App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <nav>
+      <div id="nav-title">Chat Application</div>
+    </nav>
+    <div id="chat-container">
+      <header>
+        <h2>Chat Room</h2>
+      </header>
+      <main>
+        <div id="messages"></div>
+      </main>
+      <footer>
+        <input type="text" id="messageInput" placeholder="Type a message..." autocomplete="off">
+        <button onclick="sendMessage()">Send</button>
+      </footer>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
