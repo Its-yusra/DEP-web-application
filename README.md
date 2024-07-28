@@ -48,6 +48,3 @@ professional-chat-app/
 
 
 
-   ```bash
-   git clone https://github.com/your-username/professional-chat-app.git
-   cd professional-chat-app
